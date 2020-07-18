@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReactiveExt", "ReactiveExt\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency", "{D10C1D0F-CBA9-411F-B141-4B4E00AE1A76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskCancellation", "TaskCancellation\TaskCancellation.csproj", "{F370BCAD-962A-4F52-92B2-EB0E36314E51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskCancellation", "TaskCancellation\TaskCancellation.csproj", "{F370BCAD-962A-4F52-92B2-EB0E36314E51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{DB7CDD59-8C61-40E8-8176-B5DA67EA6D1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{7E214CDD-64E3-4469-9674-1098FA516434}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{F370BCAD-962A-4F52-92B2-EB0E36314E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F370BCAD-962A-4F52-92B2-EB0E36314E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F370BCAD-962A-4F52-92B2-EB0E36314E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E214CDD-64E3-4469-9674-1098FA516434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E214CDD-64E3-4469-9674-1098FA516434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E214CDD-64E3-4469-9674-1098FA516434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E214CDD-64E3-4469-9674-1098FA516434}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{4F3A6DB0-AFD2-4BB5-96FB-80FEC735398C} = {9D94EB99-F04A-4227-B2FA-9867C6F5CB8D}
 		{43444024-50A0-4C7D-AF3F-7E21F58AA93F} = {64212E88-746A-4CAA-AA18-02CB1E362930}
 		{F370BCAD-962A-4F52-92B2-EB0E36314E51} = {D10C1D0F-CBA9-411F-B141-4B4E00AE1A76}
+		{7E214CDD-64E3-4469-9674-1098FA516434} = {DB7CDD59-8C61-40E8-8176-B5DA67EA6D1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7703BEFC-1135-49CE-9F90-21847949C8CC}
